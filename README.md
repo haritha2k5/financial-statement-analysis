@@ -2,7 +2,7 @@
 
 
 
-This project performs a \*\*basic financial statement analysis\*\* of a listed Indian company using \*\*Python and Excel\*\*. The goal is to understand \*\*business growth, profitability, liquidity, and leverage\*\* through commonly used financial metrics.
+This project performs a \*\*foundational financial statement analysis\*\* of a listed Indian company using \*\*Python and Excel\*\*. The objective is to evaluate \*\*business growth, profitability, liquidity, leverage, and cash flow behavior\*\* using commonly used financial metrics and visualizations.
 
 
 
@@ -12,11 +12,13 @@ This project performs a \*\*basic financial statement analysis\*\* of a listed I
 
 \## 📌 Project Overview
 
-\- Analyzed \*\*annual financial data\*\* for two consecutive years (\*\*FY 2023 and FY 2024\*\*)
+\- Analyzed \*\*annual financial data\*\* for \*\*FY 2023 and FY 2024\*\*
 
-\- Organized raw financial data using \*\*Microsoft Excel\*\*
+\- Used \*\*Microsoft Excel\*\* for structured data entry and organization
 
-\- Used \*\*Python (pandas)\*\* to compute growth metrics and key financial ratios
+\- Applied \*\*Python (pandas)\*\* to compute growth metrics and financial ratios
+
+\- Visualized trends using \*\*simple bar charts\*\*
 
 \- Interpreted results to derive \*\*high-level financial insights\*\*
 
@@ -26,17 +28,39 @@ This project performs a \*\*basic financial statement analysis\*\* of a listed I
 
 
 
-\## 📊 Key Metrics Analyzed
+\## 📊 Metrics Analyzed
 
-\- \*\*Revenue Growth\*\*
+\- Revenue Growth
 
-\- \*\*Net Profit Growth\*\*
+\- Net Profit Growth
 
-\- \*\*Current Ratio\*\*
+\- Current Ratio
 
-\- \*\*Debt–Equity Ratio\*\*
+\- Debt–Equity Ratio
 
-\- \*\*Net Profit Margin\*\*
+\- Net Profit Margin
+
+
+
+---
+
+
+
+\## 📈 Visual Analysis
+
+The project includes bar charts for:
+
+\- Revenue comparison (2023 vs 2024)
+
+\- Net profit comparison (2023 vs 2024)
+
+\- Revenue vs expenses analysis
+
+\- EBITDA vs net profit comparison
+
+\- Key financial ratios (2024)
+
+\- Cash flow breakdown (Operating, Investing, Financing)
 
 
 
@@ -50,7 +74,11 @@ This project performs a \*\*basic financial statement analysis\*\* of a listed I
 
 \- \*\*pandas\*\*
 
+\- \*\*matplotlib\*\*
+
 \- \*\*Microsoft Excel\*\*
+
+\- \*\*openpyxl\*\*
 
 
 
@@ -67,4 +95,30 @@ financial-statement-analysis/
 │── financials.xlsx
 
 │── README.md
+
+
+
+
+
+---
+
+
+
+\## ▶️ How to Run
+
+1\. Install dependencies:
+
+&nbsp;  ```bash
+
+&nbsp;  pip install pandas matplotlib openpyxl
+
+
+
+
+
+2.Run the analysis:
+
+```bash
+
+python financial\_analysis.py
 
