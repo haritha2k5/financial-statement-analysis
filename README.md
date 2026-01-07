@@ -1,9 +1,9 @@
-**Financial Statement Analysis
-**
+Financial Statement Analysis
+
 This project performs a foundational financial statement analysis of a listed Indian company using Python and Excel. The objective is to evaluate business growth, profitability, liquidity, leverage, and cash flow behavior using commonly used financial metrics and visualizations.
 
-**📌 Project Overview
-**
+📌 Project Overview
+
 -Analyzed annual financial data for FY 2023 and FY 2024
 
 -Used Microsoft Excel for structured data entry and organization
@@ -14,8 +14,8 @@ This project performs a foundational financial statement analysis of a listed In
 
 -Interpreted results to derive high-level financial insights
 
-**📊 Metrics Analyzed
-**
+📊 Metrics Analyzed
+
 -Revenue Growth
 
 -Net Profit Growth
@@ -26,8 +26,7 @@ This project performs a foundational financial statement analysis of a listed In
 
 -Net Profit Margin
 
-**📈 Visual Analysis
-**
+📈 Visual Analysis
 The project includes bar charts for:
 
 -Revenue comparison (2023 vs 2024)
@@ -42,8 +41,8 @@ The project includes bar charts for:
 
 -Cash flow breakdown (Operating, Investing, Financing)
 
-**🛠 Tech Stack
-**
+🛠 Tech Stack
+
 -Python
 
 -pandas
@@ -54,14 +53,14 @@ The project includes bar charts for:
 
 -openpyxl
 
-**📂 Project Structure
-**financial-statement-analysis/
+📂 Project Structure
+financial-statement-analysis/
 │── financial_analysis.py
 │── financials.xlsx
 │── README.md
 
-**▶️ How to Run
-**
+▶️ How to Run
+
 Install dependencies:
 
 pip install pandas matplotlib openpyxl
@@ -71,8 +70,8 @@ Run the analysis:
 
 python financial_analysis.py
 
-**📌 Key Insights
-**
+📌 Key Insights
+
 Revenue growth indicates steady top-line expansion.
 
 Net profit growth lagging revenue suggests rising costs.
@@ -83,10 +82,10 @@ Low debt–equity ratio indicates conservative leverage.
 
 Positive operating cash flow validates earnings quality.
 
-**⚠️ Limitations
-**
+⚠️ Limitations
+
 This analysis is limited to recent annual data and basic ratios. It does not include industry benchmarking, forecasting, valuation models, or multi-year trend analysis.
 
-**🎯 Purpose
-**
+🎯 Purpose
+
 This project was created to strengthen fundamental understanding of financial statements and apply finance concepts programmatically using Python.
