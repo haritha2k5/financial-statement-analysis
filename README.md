@@ -1,124 +1,92 @@
-\# Financial Statement Analysis
+Financial Statement Analysis
 
+This project performs a foundational financial statement analysis of a listed Indian company using Python and Excel. The objective is to evaluate business growth, profitability, liquidity, leverage, and cash flow behavior using commonly used financial metrics and visualizations.
 
+📌 Project Overview
 
-This project performs a \*\*foundational financial statement analysis\*\* of a listed Indian company using \*\*Python and Excel\*\*. The objective is to evaluate \*\*business growth, profitability, liquidity, leverage, and cash flow behavior\*\* using commonly used financial metrics and visualizations.
+Analyzed annual financial data for FY 2023 and FY 2024
 
+Used Microsoft Excel for structured data entry and organization
 
+Applied Python (pandas) to compute growth metrics and financial ratios
 
----
+Visualized trends using simple bar charts
 
+Interpreted results to derive high-level financial insights
 
+📊 Metrics Analyzed
 
-\## 📌 Project Overview
+Revenue Growth
 
-\- Analyzed \*\*annual financial data\*\* for \*\*FY 2023 and FY 2024\*\*
+Net Profit Growth
 
-\- Used \*\*Microsoft Excel\*\* for structured data entry and organization
+Current Ratio
 
-\- Applied \*\*Python (pandas)\*\* to compute growth metrics and financial ratios
+Debt–Equity Ratio
 
-\- Visualized trends using \*\*simple bar charts\*\*
+Net Profit Margin
 
-\- Interpreted results to derive \*\*high-level financial insights\*\*
-
-
-
----
-
-
-
-\## 📊 Metrics Analyzed
-
-\- Revenue Growth
-
-\- Net Profit Growth
-
-\- Current Ratio
-
-\- Debt–Equity Ratio
-
-\- Net Profit Margin
-
-
-
----
-
-
-
-\## 📈 Visual Analysis
+📈 Visual Analysis
 
 The project includes bar charts for:
 
-\- Revenue comparison (2023 vs 2024)
+Revenue comparison (2023 vs 2024)
 
-\- Net profit comparison (2023 vs 2024)
+Net profit comparison (2023 vs 2024)
 
-\- Revenue vs expenses analysis
+Revenue vs expenses analysis
 
-\- EBITDA vs net profit comparison
+EBITDA vs net profit comparison
 
-\- Key financial ratios (2024)
+Key financial ratios (2024)
 
-\- Cash flow breakdown (Operating, Investing, Financing)
+Cash flow breakdown (Operating, Investing, Financing)
 
+🛠 Tech Stack
 
+Python
 
----
+pandas
 
+matplotlib
 
+Microsoft Excel
 
-\## 🛠 Tech Stack
+openpyxl
 
-\- \*\*Python\*\*
-
-\- \*\*pandas\*\*
-
-\- \*\*matplotlib\*\*
-
-\- \*\*Microsoft Excel\*\*
-
-\- \*\*openpyxl\*\*
-
-
-
----
-
-
-
-\## 📂 Project Structure
-
+📂 Project Structure
 financial-statement-analysis/
-
-│── financial\_analysis.py
-
+│── financial_analysis.py
 │── financials.xlsx
-
 │── README.md
 
+▶️ How to Run
+
+Install dependencies:
+
+pip install pandas matplotlib openpyxl
 
 
+Run the analysis:
 
+python financial_analysis.py
 
----
+📌 Key Insights
 
+Revenue growth indicates steady top-line expansion.
 
+Net profit growth lagging revenue suggests rising costs.
 
-\## ▶️ How to Run
+Strong current ratio reflects healthy short-term liquidity.
 
-1\. Install dependencies:
+Low debt–equity ratio indicates conservative leverage.
 
-&nbsp;  ```bash
+Positive operating cash flow validates earnings quality.
 
-&nbsp;  pip install pandas matplotlib openpyxl
+⚠️ Limitations
 
+This analysis is limited to recent annual data and basic ratios. It does not include industry benchmarking, forecasting, valuation models, or multi-year trend analysis.
 
+🎯 Purpose
 
-
-
-2.Run the analysis:
-
-```bash
-
-python financial\_analysis.py
-
+This project was created to strengthen fundamental understanding of financial statements and apply finance concepts programmatically using Python.
